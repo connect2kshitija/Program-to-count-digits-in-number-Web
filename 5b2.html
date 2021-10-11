@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program to count digits in an Number</title>
+</head>
+
+<body>
+    <Header>   
+    
+    
+    <h1>Program to count digits in an Number</h1>
+    <h2>Program to count digits in an Number</h2>
+    <h3>Program to count digits in an Number</h3>
+    <h4>Program to count digits in an Number</h4>
+    <h5>Program to count digits in an Number</h5>
+    <h6>Program to count digits in an Number</h6>
+</Header>
+    
+        <section>
+            <!-- Problem Statement -->
+            <h2>Problem Statement:</h2>
+            <p>Write a code in any programming language that counts the
+                digits in a number..</p>
+                <article>
+                    <h2>What should be the approach for this program?</h2>
+                    <p><s>Nothing at all</s></p>
+                    <small>Let's consider we have a number 342567 so how can we count its digit? First thing is clear that we have to use a loop as we are counting the digits, as long as the loop will run we will add the 1 to the variable. But we don't know the length of integer so what we can do is divide it by 10.We divide until the number becomes zero so loop will run until the length of digits. Though this we can count no. of digits in a given integer.</small>
+                </article>
+        </section>
+        <br>
+        <nav><a href="/Algo.html">Algorithm</a></nav>
+        <hr>
+        <section>
+            <!-- Code -->
+            <h2>Code:</h2>
+            <code>
+        <pre>
+        #include<stdio.h>
+
+            int main() {
+                int a, n;
+                printf("Enter a number:");
+                scanf("%d", & a);
+                while (a != 0) {
+                    a /= 10;
+                    n++;
+                }
+                printf("No. of digits is %d", n);
+            }
+
+        </pre>
+            </code>
+        </section>
+        <hr>
+        <section>
+            <!-- Sample input -->
+            <h2>Sample Input:</h2>
+            <b>long n = 345289467</b>
+
+        </section>
+        <hr>
+        <section>
+            <!-- sample Output -->
+            <h2>Sample Output:</h2>
+            <b>Number of digits : 9</b>
+        </section>
+        <hr>
+        <Section>
+            <!-- Variables used in program -->
+            <aside>
+                <h2> Variables:</h2>
+                <b>Number, count</b>
+            </aside>
+        </Section>
+        <hr>
+        <Section>
+            <!-- Complexity -->
+            <h2>Complexity:</h2>
+            <b>O(n)</b>
+        </Section>
+    </main>
+    <p>log<sub>n</sub>n</p>
+    <p>n<sup>2</sup></p>
+    <Footer>
+
+    </Footer>
+</body>
+
+</html>
